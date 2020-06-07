@@ -754,13 +754,20 @@ footer {
 }
 
   .taro-story__about {
-  width:100%;
-  font-size:18px;
+    width:100%;
+    font-size:18px;
   }
+
+  .taro-story__title {
+    padding-right:15%;
+    display:block;
+  }
+
   .taro-story__desc {
     color:#98a3b9;
     margin-bottom:2rem;
-    font-size:18px;
+    font-size:20px;
+    padding-right:10%;
   }
 
 .questions {
@@ -774,14 +781,6 @@ footer {
   background-repeat: no-repeat;
 }
 
-
-@media (min-width: 550px) {
-  .questions {
-    
-  }
-
-
-}
 .form {
   width:100%;
 }
